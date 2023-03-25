@@ -2,10 +2,121 @@
 <html lang="ru">
 <head>
 <meta charset="utf-8" />
-<title>1221</title>
+<title>steam hack</title>
 </head>
-<body>
-	<script type="text/javascript">
+<body id="a">
+	<style>
+  body { background: url(images/11.jpg); }
+</style>
+	<div>
+	<button onclick="h()">чб</button>
+	<button onclick="b()">бч</button>
+	</div>
+<table
+border="1"
+align="center"
+rules="rows"
+style="width:60%;">
+<tr>
+<td>
+<!--ШАПКА САЙТА-->
+<table
+border="1"
+background="images/12.jpg"
+bgcolor="#2551D0"
+cellpadding="10"
+color="#2551D0"
+style="width:100%; border-radius:5px;">
+<tr>
+<th>
+<h1 id="w">STEAM hacked</h1>
+<h3 id="w">влом стима УЖЕ в ру нете</h3>
+</th>
+</tr>
+</table>
+<table
+border="1"
+bgcolor="#2551D0"
+cellpadding="10"
+style="width:100%; border-radius:5px;">
+<tr>
+
+<td
+rowspan="2"
+style="width:80%">
+
+	<h2>ЧТО???</h2>
+
+
+
+<p style="text-indent:20px">
+сказать нечего...</p>
+
+<p style="text-indent:20px">Русский хацкер выложил приложение для входа в стим для ГЕЙБА.</p>
+</td>
+<td bgcolor="#e6e6fa">
+<a href="index.html">
+<span style="margin-left:5px;">MENU</span></a>
+<p>
+<a href="add.html">
+<img src="images/2.png">
+<span style="margin-left:5px;">ВЗЛОМКА</span></a>
+</p>
+<p>
+<a href="instrucktion.html">
+<img src="images/2.png">
+<span style="margin-left:5px;">ИНСТРУКЦИЯ</span;></a>
+</p>
+<p>
+<a href="about.html">
+<img src="images/2.png">
+<span style="margin-left:5px;">ОПИСАНИЕ</span></a>
+</p>
+</td>
+</tr>
+<tr>
+<td
+bgcolor="#e6e6fa"
+align="center">
+<h3>Общая информация</h3>
+<button onclick = "add()">add</button>
+
+
+<button onclick = "cc()">clear</button>
+
+<div class="article">
+	<p></p>
+	<img src="">
+</div>
+</td>
+</tr>
+</table>
+<table
+border="1"
+bgcolor="#7FFFD4"
+height="100"
+cellpadding="10"
+background="images/12.jpg"
+style="width:100%; border-radius:5px;">
+<tr>
+<th>
+<h3>2023.03.18</h3>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<script type="text/javascript">
+		
+		var articDiv = document.querySelector("div.article");
+		function add(){
+			articDiv.innerHTML = "<p>qqqqqq</p>";
+		}
+		function cc(){
+			articDiv.innerHTML = "<img src='images/1.png'>";
+		}
+		/*
 		let openedWindow;
 		function openWindow() {
 			openedWindow = window.open("https://www.mozilla.org/", "mozillaTab","poup");
@@ -15,88 +126,23 @@
 		}
 		openWindow();
 		setTimeout(closeOpenedWindow, 3000);
+
+		setInterval(add, 3000);
+		setInterval(clear, 4000);	
+					function h(){
+			var elem3 = document.getElementsById("w");
+			elem3.style.color	 = "black";
+			var elem5 = document.getElementsById("a");
+			elem5.style.backgroundColor = "white";
+}
+			function b(){
+			var elem4 = document.getElementsById("w");
+			elem4.style.color	 = "white";
+			var elem6 = document.getElementsById("a");
+			elem6.style.backgroundColor = "black";
+}
+<button onclick="h()">чб</button>
+	<button onclick="b()">бч</button>*/	
 	</script>
-
-<table
-border="1"
-align="center"
-rules="rows"
-style="width:60%;">
-
-<tr>
-
-<td>
-<!--ШАПКА САЙТА-->
-<table
-border="1"
-background="images/pngwing.com.png"
-bgcolor="#7FFFD4"
-cellpadding="10"
-style="width:100%; border-radius:5px;">
-<tr>
-<th>
-<h1>1221</h1>
-<h3>12212112</h3>
-</th>
-</tr>
-</table>
-<table
-border="1"
-bgcolor="#e6e6fa"
-cellpadding="10"
-style="width:100%; border-radius:5px;">
-<tr>
-<td
-rowspan="2"
-style="width:80%">
-<h2>Страница</h2>
-<p style="text-indent:20px">
-1221.</p>
-
-<p style="text-indent:20px">1221.</p>
-</td>
-<td bgcolor="#e6e6fa">
-<h3>Menu</h3>
-<p>
-<a href="">
-<img src="images/2.png">
-<span style="margin-left:5px;">0</span></a>
-</p>
-<p>
-<a href="">
-<img src="images/2.png">
-<span style="margin-left:5px;">1</span;></a>
-</p>
-<p>
-<a href="">
-<img src="images/2.png">
-<span style="margin-left:5px;">2</span></a>
-</p>
-</td>
-</tr>
-<tr>
-<td
-bgcolor="#e6e6fa"
-align="center">
-<h3>Общая информация</h3>
-<p>Текст общей информации или реклама</p>
-</td>
-</tr>
-</table>
-<table
-border="1"
-bgcolor="#7FFFD4"
-height="100"
-cellpadding="10"
-style="width:100%; border-radius:5px;">
-<tr>
-<th>
-<h3>Ащее</h3>
-</th>
-</tr>
-</table>
-</td>
-</tr>
-</table>
 </body>
 </html>
