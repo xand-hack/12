@@ -9,6 +9,9 @@
 	<div>
 	<button onclick="h()">чб</button>
 	<button onclick="b()">бч</button>
+	<button onclick="inter()">inter</button>
+	<button onclick="ini()">rand</button>
+
 	
 	</div>
 <table
@@ -29,7 +32,7 @@ style="width:100%; border-radius:5px;">
 <tr>
 <th>
 <h1 id="w">STEAM hacked</h1>
-<h3>влом стима УЖЕ в ру нете</h3>
+<h3 id="colors">влом стима УЖЕ в ру нете</h3>
 </th>
 </tr>
 </table>
@@ -128,6 +131,36 @@ style="width:100%; border-radius:5px;">
 		setInterval(add, 3000);
 		setInterval(clear, 4000);
 		*/		
+		 function pickColor() {
+        var colors = [
+            '#ff0000', '#00ff00', '#0000ff',
+            '#ff3333', '#ffff00', '#ff6600'
+        ];
+        var random_color = colors[(Math.floor(
+                Math.random() * colors.length))];
+        var x = document.getElementById('colors');
+        x.style.color = random_color;
+		}
+
+		function inter(){
+			var add = setInterval(pickColor, 500);
+		}
+		
+
+
+
+		function setbodybgcolor(){
+			var hex = Math.floor(Math.random() * 0xFFFFFF);
+			var he = "#" + (hex.toString(16)).substr(-6)
+			document.body.style.backgroundColor=he;
+               }
+
+               function ini(){
+			var add = setInterval(setbodybgcolor, 500);
+		}
+
+
+
 		function h(){
 			var elem3 = document.getElementById("w");
 			elem3.style.color	 = "black";
